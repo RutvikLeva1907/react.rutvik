@@ -1,18 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import reportWebVitals from './reportWebVitals';
-import  App  from './App';
-import Main from './Main';
-import Greeting from './Geting';
 
+import reportWebVitals from './reportWebVitals';
+import Props1 from './Props1';
+import App from './App';
+import UserProfileCard from './Props1';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <App />
-    <Main/>
-    <Greeting/>
+    <Props1 />
   </React.StrictMode>
 );
 
@@ -20,4 +19,3 @@ root.render(
 // to log results (for example: reportWebVitals(console.log))
 // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 reportWebVitals();
-  nhvhjnbb
