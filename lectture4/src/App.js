@@ -1802,7 +1802,7 @@ const listdata = [
 ]
 const App = () => {
   return (
-    <div>
+    <div className='box1'>
       {listdata.map((item)=><List key={item.id} {...item} />)}
       {/* <List /> */}
 
